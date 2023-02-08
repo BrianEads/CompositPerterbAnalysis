@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##  What is happening below? how to modify for a serverless pattern?
 python -m cpa.collect_results     --save_dir /checkpoint/$USER/sweep_GSM_new_logsigm
 python -m cpa.collect_results     --save_dir /checkpoint/$USER/sweep_pachter_new
 python -m cpa.collect_results     --save_dir /checkpoint/$USER/sweep_cross_species_new
