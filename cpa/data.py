@@ -190,7 +190,7 @@ class Dataset:
             self.drugs_names_unique = np.array(list(drugs_names_unique))
 
             # save encoder for a comparison with Mo's model
-            # later we need to remove this part
+            # later we need to remove this part, it is not clear why?
             encoder_drug = OneHotEncoder(sparse=False)
             encoder_drug.fit(self.drugs_names_unique.reshape(-1, 1))
 
